@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all.2s ease;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+}
+body {
+  width: 100%;
+}
+html {
+    overflow-x: hidden;
+}
+
+.full-container {
+    background: #2E8B57;
+    background-blend-mode:color;
+    width: 210vh;
+    background-size: cover;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 8rem;
+    align-items: center;
+}
+.header h3 {
+    font-size: 2.5rem;
+    color: #eee;
+}
+.header h4 {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: #eee;
+}
+.header a {
+    height: 6.5rem;
+    width: 7rem;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #eee;
+    display: flex;
+    font-size: 1.4rem;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    border-radius: 50%;
+    letter-spacing: 1.5px;
+}
+.main-container {
+    padding-bottom: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.main-container .names {
+    min-height: 85vh;
+    background:rgba(0,0,0,.2);
+    width: 20%;
+    color: #fff;
+    text-align: center;
+    border-radius: .5rem;
+}
+
+.main-container .chats {
+    width: 70%;
+    background:rgba(0,0,0,.2);
+    height: 72vh;
+    border-radius: .5rem;
+
+}
+.main-container .names .logo {
+    padding: .5rem 1rem;
+    text-align: center;
+
+}
+.main-container .names .logo h2 {
+    font-weight: 500;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+
+    letter-spacing: 2px;
+}
+.main-container .names .full {
+    background-color:rgb(28, 232, 116,.5);
+    margin-left: 1.5rem;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: .8rem 0;
+    margin-top: 1.5rem;
+}
+
+.main-container .names .half {
+    margin: 1rem 1.5rem;
+    background-color: rgb(28, 232, 116,.5);
+    padding: .8rem 0;
+    border-radius: 10px;
+}
+
+.main-container .chats .msg-container .msg1 {
+    padding: 1rem .5rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.main-container .chats .msg-container .msg1 span {
+    width: 40%;
+    height: 4rem;
+    background-color: rgb(28, 232, 116);
+    border-radius: .6rem;
+}
+
+
+.main-container .chats .msg-container .msg2 {
+    padding: .2rem .5rem;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.main-container .chats .msg-container .msg2 span {
+    width: 40%;
+    height: 4rem;
+    background-color:#eee;
+    border-radius: .6rem;
+}
+
+
+.main-container .chats .msg-container .msg3 {
+    padding: .2rem .5rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.main-container .chats .msg-container .msg3 span {
+    width: 20%;
+    height: 4rem;
+    background-color:rgb(28, 232, 116);
+    border-radius: .6rem;
+}
+
+.main-container .chats .msg-container .msg4 {
+    padding: .3rem .5rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.main-container .chats .msg-container .msg4 span {
+    width: 60%;
+    height: 8rem;
+    background-color:rgb(28, 232, 116);
+    border-radius: .6rem;
+}
+.main-container .chats .msg-container .msg5 {
+    padding: .3rem .5rem;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.main-container .chats .msg-container .msg5 span {
+    width: 30%;
+    height: 4rem;
+    background-color:#eee;
+    border-radius: .6rem;
+}
+
+.main-container .chats .search-container {
+    margin-top: 2.5rem;
+    width:90rem;
+}
+.main-container .chats .search-container input {
+    width: 52.5%;
+    padding: 1rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    font-size: 1.1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,.2);
+    text-transform: none;
+    background-color: #eee;
+    border: .1rem solid rgba(0,0,0,.3);
+    color: #333;
+}
+.main-container .chats .search-container .btn {
+    padding: 1rem 4rem;
+    background-color:rgb(28, 232, 116,.5);
+    color: #fff;
+    display: inline-block;
+    border-radius: .5rem;
+    text-decoration: none;
+    margin-top: .3rem;
+    letter-spacing: 2px;
+   box-shadow: 0 .5rem 1.1rem rgba(0,0,0,.5);
+   margin-left: 1.3rem;
+}

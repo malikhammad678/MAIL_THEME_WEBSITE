@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all.2s ease;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+}
+html {
+    overflow-x: hidden;
+}
+
+.header-1 {
+    display: flex;
+    padding: 1rem .5rem;
+    background-color: #2E8B57;;
+}
+.header-1 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.header-2 {
+    background-color: #2E8B57;;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    color: #fff;
+}
+
+.header-2 a {
+    height: 9.5rem;
+    width: 10rem;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    letter-spacing: 2px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+    width: 100%;
+}
+
+.container .box-1 {
+    width: 23%;
+    background-color: #2E8B57;;
+    clip-path: polygon(0 0, 0 90%, 100% 0);
+}
+
+.container .box-2 {
+    width: 23%;
+    background-color: #2E8B57;
+    clip-path: polygon(0 0, 100% 90%, 100% 0);
+}
+.container .content {
+    width: 80%;
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container .content .flex {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+    align-items: center;
+}
+.container .content .flex input {
+    padding: .8rem 2rem;
+    text-transform: none;
+    background-color: #eee;
+    font-size: 1rem;
+    border: .1rem solid rgba(0,0,0,.3);
+    color: #333;
+    border-radius: .5rem;
+    margin: .3rem 0;
+    box-shadow: 0 0 1rem rgba(0,0,0,.2);
+    width: 25rem;
+}
+.container .content .flex i {
+    font-size: 2rem;
+}
+
+.container .content .button-container {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   margin-top: 1.5rem;
+}
+
+.container .content .button-container .btn {
+    padding: 1rem 4rem;
+    background-color: #2E8B57;;
+    color: #fff;
+    display: inline-block;
+    border-radius: .5rem;
+    text-decoration: none;
+    margin-top: .3rem;
+    letter-spacing: 2px;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+}
